@@ -1,1 +1,60 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.header {
+  border-bottom: 1px solid gray;
+  padding: 0 40px;
+}
+
+.header img {
+  margin-right: 56px;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: .1px;
+  font-weight: 600;
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.header ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 24px 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #00000061;
+}
+
+.header button {
+  margin-left: 600px;
+  background: #058d66;
+  color: #fff;
+  background-position: 50%;
+  -webkit-transition: background .7s,color .4s;
+  transition: background .7s,color .4s;
+  border: 0px solid white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header button:hover {
+  background-color: #0ec980;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */
