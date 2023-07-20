@@ -123,7 +123,7 @@
 #slider-section .slider-container .slide-1 .slide-image-1 .info span {
   margin-bottom: 40px;
   font-size: 44px;
-  color: hsl(0deg, 0%, 22%);
+  color: hsl(0, 0%, 22%);
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 #slider-section .slider-container .slide-1 .slide-image-1 .info p {
@@ -171,7 +171,7 @@
 }
 #slider-section .slider-container .slide-2 .info span {
   font-size: 44px;
-  color: hsl(0deg, 0%, 22%);
+  color: hsl(0, 0%, 22%);
   font-family: Georgia, Times, "Times New Roman", serif;
   margin-bottom: 40px;
 }
@@ -221,7 +221,7 @@
 }
 #slider-section .slider-container .slide-3 .info span {
   font-size: 44px;
-  color: hsl(0deg, 0%, 22%);
+  color: hsl(0, 0%, 22%);
   font-family: Georgia, Times, "Times New Roman", serif;
   margin-bottom: 40px;
 }
@@ -272,12 +272,12 @@
 }
 #slider-section .slider-container .slide-4 .info span {
   font-size: 44px;
-  color: hsl(0deg, 0%, 22%);
+  color: hsl(0, 0%, 22%);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-bottom: 40px;
 }
 #slider-section .slider-container .slide-4 .info p {
-  color: hsl(0deg, 0%, 24%);
+  color: hsl(0, 0%, 24%);
   font-size: 17px;
   margin-bottom: 50px;
 }
@@ -306,21 +306,21 @@
 
 .fa-angle-left {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50px;
 }
 
 .fa-angle-right {
   position: absolute;
-  top: 40%;
+  top: 30%;
   right: 50px;
 }
 
 @media (max-width: 600px) {
   .slide-1,
-.slide-2,
-.slide-3,
-.slide-4 {
+  .slide-2,
+  .slide-3,
+  .slide-4 {
     display: flex;
     height: auto;
     display: block;
@@ -328,9 +328,9 @@
     text-align: center;
   }
   .slide-1 .info,
-.slide-2 .info,
-.slide-3 .info,
-.slide-4 .info {
+  .slide-2 .info,
+  .slide-3 .info,
+  .slide-4 .info {
     width: 100%;
     margin-left: 0;
     overflow: hidden;
@@ -387,4 +387,15 @@
 .fa-check {
   color: #099a71;
   font-size: 15px;
+}
+
+.solution-container div {
+  background-color: rgb(252, 250, 250);
+  border-radius: 12px;
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+}
+.solution-container div:hover {
+  box-shadow: 5px 5px 10px;
+  transition: 600ms;
 }/*# sourceMappingURL=style.css.map */
