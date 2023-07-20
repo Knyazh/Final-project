@@ -2,7 +2,7 @@
 
     margin-top: 56px;
     .solution-text{
-        margin: 0 90px;
+        margin: 0 250px;
         margin-bottom: 40px;
 
         h2{
@@ -12,4 +12,53 @@
     font-family:"Gothic A1";
         }
     }
+
+    .solution-container{
+        margin: 0 250px;
+        padding-bottom: 24px;
+    }
+    
+    .solution-div{
+        ul{
+
+          .list-1{
+            margin-bottom: 16px;
+            font-size: 20px;
+          }
+
+          .list-2{
+            margin-bottom: 16px;
+            font-size: 14px;
+          }
+
+          .list-3{
+            font-size: 14px;
+          }
+          .list-4{
+
+            margin-top: 25px;
+            a{
+                font-size: 14px;
+                color: #099a71;
+                text-decoration: none;
+
+            }
+          }
+            list-style: none;
+        }
+        padding: 24px 24px 16px;
+        .solution-logo{
+            margin: 0px 8px 24px 0px;
+            color: #099a71;
+            margin-left: 35px;
+        }
+    }
+    
+}
+
+.fa-check{
+    color: #099a71;
+    font-size: 15px;
+}
+.last-li{
 }
