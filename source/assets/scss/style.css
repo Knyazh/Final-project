@@ -2,6 +2,10 @@
   display: none;
 }
 
+.border {
+  border: 1px solid black;
+}
+
 .header {
   border-bottom: 1px solid gray;
   padding: 0 40px;
@@ -452,6 +456,23 @@
   .slide-4 .info {
     width: 100%;
     margin-left: 0;
+    overflow: hidden;
   }
+}
+
+.solution {
+  margin-top: 56px;
+}
+
+.solution .solution-text {
+  margin: 0 90px;
+  margin-bottom: 40px;
+}
+
+.solution .solution-text h2 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: .25px;
+  font-family: "Gothic A1";
 }
 /*# sourceMappingURL=style.css.map */
