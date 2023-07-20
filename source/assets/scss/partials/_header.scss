@@ -44,4 +44,25 @@
   transition: 1s;
 }
 
+.header-responsive{
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: none !important;
+}
+
+
+@media screen and (max-width: 600px){
+    header{
+        display: none;
+
+    }
+    .header-responsive{
+        width: 90%;
+        margin: 0 auto;
+        display: flex !important;
+        max-width: 100%;
+    }
+    
+}
 
