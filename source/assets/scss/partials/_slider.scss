@@ -260,3 +260,25 @@
      right: 50px;
 }
 
+
+@media (max-width: 600px) {
+    .slide-1,
+    .slide-2,
+    .slide-3,
+    .slide-4 {
+        display: flex;
+      height: auto;
+      display: block;
+      padding: 20px;
+      text-align: center;
+
+      .info {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+
+
+
+

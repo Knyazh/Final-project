@@ -432,4 +432,26 @@
   top: 40%;
   right: 50px;
 }
+
+@media (max-width: 600px) {
+  .slide-1,
+  .slide-2,
+  .slide-3,
+  .slide-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .slide-1 .info,
+  .slide-2 .info,
+  .slide-3 .info,
+  .slide-4 .info {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
