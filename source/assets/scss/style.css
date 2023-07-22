@@ -1,3 +1,10 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .display-none {
   display: none;
 }
@@ -14,9 +21,68 @@
   justify-content: space-between;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
+  position: fixed;
   border-bottom: 1px solid gray;
   padding: 0 40px;
+  background-color: white;
+  z-index: 99999;
 }
 .header img {
   margin-right: 56px;
@@ -350,7 +416,9 @@
   font-family: "Gothic A1";
 }
 .solution .solution-container {
-  margin: 0 250px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 80%;
   padding-bottom: 24px;
 }
 .solution .solution-div {
@@ -389,7 +457,11 @@
   font-size: 15px;
 }
 
+.solution-container {
+  justify-content: space-between;
+}
 .solution-container div {
+  margin-right: 15px;
   background-color: rgb(252, 250, 250);
   border-radius: 12px;
   transition: 600ms;
@@ -398,4 +470,130 @@
 .solution-container div:hover {
   box-shadow: 5px 5px 10px;
   transition: 600ms;
+}
+
+.bundle {
+  margin-top: 96px;
+}
+.bundle .bundle-mix {
+  margin: 0 auto;
+}
+.bundle .bundle-mix .bundle-container {
+  background-color: rgb(252, 250, 250);
+  padding: 24px;
+  margin-right: 24px;
+  border-radius: 12px;
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+}
+.bundle .bundle-mix .bundle-container .bunfle-img {
+  margin-bottom: 16px;
+}
+.bundle .bundle-mix .bundle-container .bundle-container-text {
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+.bundle .bundle-mix .bundle-container p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-family: "Gothic A1";
+}
+.bundle .bundle-mix .bundle-container ul {
+  margin-bottom: 40px;
+  list-style: none;
+}
+.bundle .bundle-mix .bundle-container ul li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+.bundle .bundle-mix .bundle-container ul li i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.bundle .bundle-mix .bundle-container ul li span {
+  color: #099a71;
+  font-size: 14px;
+}
+.bundle .bundle-text {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.bundle-img {
+  margin-bottom: 16px;
+  align-items: baseline;
+}
+
+.monthly-price {
+  margin-bottom: 8px;
+}
+.monthly-price h3 {
+  margin-right: 4px;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+.monthly-price img {
+  margin-right: 8px;
+  margin-top: 15px;
+}
+.monthly-price h5 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.38);
+  vertical-align: baseline;
+  margin-top: 35px;
+}
+
+.bundle-actions button {
+  background-color: hsla(0, 0%, 100%, 0);
+  color: #099a71;
+  background-position: 50%;
+  transition: background 0.7s, color 0.4s;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 128px;
+  height: 40px;
+  padding: 8px 16px;
+  width: 100%;
+}
+.bundle-actions button:hover {
+  background-color: #d2e9e2;
+}
+.bundle-actions a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #058d66;
+  color: #fff;
+  background-position: 50%;
+  transition: background 0.7s, color 0.4s;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 128px;
+  padding: 8px 16px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
