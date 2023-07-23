@@ -1,296 +1,576 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link rel="stylesheet" href="./source/assets/scss/style.css" />
-    <script src="./source/js/index.js" defer></script>
-    <title>Pasha Bank</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-  <body>
-    <!-- Header section start -->
-    <header>
-      <section class="header d-flex align-items-center">
-        <a href="./index.html">
-          <img
-            class="pasha-logo"
-            src="./source/assets/media/img/logo_az.svg"
-            alt="Pasha bank logo"
-        /></a>
-        <ul class="header-menu">
-          <li><a href="#"> Biznes üçün xidmətlər</a></li>
-          <li><a href="#">Kreditlər</a></li>
-          <li><a href="#">Sənədli əməliyyatlar</a></li>
-          <li><a href="#">Elavə xidmətlər</a></li>
-        </ul>
-        <button class="onlaynBank-btn">
-          Onlayn Bank <i class="fa-solid fa-sort-down fa-sm"></i>
-        </button>
-      </section>
-    </header>
-    <div class="header-responsive d-flex">
-      <div>
-        <i class="fa-solid fa-bars fa-lg"></i>
+  <link rel="stylesheet" href="./source/assets/scss/style.css" />
+  <script src="./source/js/index.js" defer></script>
+  <title>Pasha Bank</title>
+</head>
+
+<body>
+  <!-- Header section start -->
+  <header>
+    <section class="header d-flex align-items-center">
+      <a href="./index.html">
+        <img class="pasha-logo" src="./source/assets/media/img/logo_az.svg" alt="Pasha bank logo" /></a>
+      <ul class="header-menu">
+        <li><a href="#"> Biznes üçün xidmətlər</a></li>
+        <li><a href="#">Kreditlər</a></li>
+        <li><a href="#">Sənədli əməliyyatlar</a></li>
+        <li><a href="#">Elavə xidmətlər</a></li>
+      </ul>
+      <button class="onlaynBank-btn">
+        Onlayn Bank <i class="fa-solid fa-sort-down fa-sm"></i>
+      </button>
+    </section>
+  </header>
+  <div class="header-responsive d-flex">
+    <div>
+      <i class="fa-solid fa-bars fa-lg"></i>
+    </div>
+    <div class="responsive-logo">
+      <img src="./source/assets/media/img/logo_az.svg" />
+    </div>
+
+    <div class="exit-responsive">
+      <i class="fa-solid fa-arrow-right-from-bracket fa-lg"></i>
+    </div>
+  </div>
+  <!-- Header section end -->
+
+  <main>
+    <section id="slider-section">
+      <div class="slider-container">
+        <i class="fa-solid fa-angle-left fa-sm" id="left-button"></i>
+        <div class="slide-1 slides">
+          <div class="slide-image-1">
+            <div class="info">
+              <span>Unsecured business loan</span>
+              <p>
+                Get a business loan from 12% without collateral and online!
+              </p>
+              <a href="#">More details</a>
+            </div>
+          </div>
+        </div>
+        <i class="fa-solid fa-angle-right fa-sm" id="right-button"></i>
+        <div class="slide-2 slides">
+          <div class="info">
+            <span>Become a client of PASHA Bank</span>
+            <p>
+              Open an account without visiting the bank and without wasting
+              time
+            </p>
+            <a href="" class="second-more-d">More Details</a>
+          </div>
+          <div class="slide-image-2"></div>
+        </div>
+        <div class="slide-3 slides">
+          <div class="info">
+            <span>Business cards</span>
+            <p>Get the financial freedom you deserve</p>
+            <a href="">More Details</a>
+          </div>
+          <div class="slide-image-3"></div>
+        </div>
+        <div class="slide-4 slides">
+          <div class="info">
+            <span>Make payroll transfers in 3 steps</span>
+            <p>
+              Online ordering of salary cards for the first time in the
+              country
+            </p>
+            <a href="">More details</a>
+          </div>
+          <div class="slide-image-4"></div>
+        </div>
       </div>
-      <div class="responsive-logo">
-        <img src="./source/assets/media/img/logo_az.svg" />
-      </div>
+    </section>
 
-      <div class="exit-responsive">
-        <i class="fa-solid fa-arrow-right-from-bracket fa-lg"></i>
+    <section class="solution">
+      <div class="solution-text">
+        <h2>
+          Kiçik və Orta Sahibkarlıq üçün biznes <br />
+          əməliyyatlarının optimal həlli
+        </h2>
+      </div>
+      <div class="solution-container space-between d-flex">
+        <div class="col-4 solution-div">
+          <i class="fa-solid fa-file-invoice fa-2xl solution-logo"></i>
+          <ul>
+            <li class="list-1">5 dəqiqəyə onlayn hesab açın</li>
+            <li class="list-2">
+              <i class="fa-solid fa-check fa-2xs"></i> Dünyanın istənilən
+              nöqtəsindən, <br />
+              24/7 rejimində
+            </li>
+            <li class="list-3">
+              <i class="fa-solid fa-check fa-2xs"></i> Video-zəng ilə
+              verifikasiya
+            </li>
+            <li class="list-4">
+              <a href="">
+                Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 solution-div">
+          <i id="percen-logo" class="fa-solid fa-percent fa-2xl solution-logo"></i>
+          <ul>
+            <li class="list-1">
+              Onlayn kreditlərlə biznesinizi genişləndirin
+            </li>
+            <li class="list-2">
+              <i class="fa-solid fa-check fa-2xs"></i> Girovsuz
+            </li>
+            <li class="list-3">
+              <i class="fa-solid fa-check fa-2xs"></i> 1 iş gününə
+            </li>
+            <li class="list-4">
+              <a href="#">Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 solution-div">
+          <i class="fa-regular fa-hard-drive fa-2xl solution-logo"></i>
+          <ul>
+            <li class="list-1">Əməkhaqqı layihəsinə qoşulun</li>
+            <li class="list-2">
+              <i class="fa-solid fa-check fa-2xs"></i> Əmək haqlarının rahat
+              və təhlükəsiz ödənişi
+            </li>
+            <li class="list-3">
+              <i class="fa-solid fa-check fa-2xs"></i> Onlayn platforma
+              üzərindən idarəetmə
+            </li>
+            <li class="list-4 last-li">
+              <a href="">
+                Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bundle col-12">
+      <div class="container bundle-text">
+        <h2>
+          Ehtiyaclarınıza uyğun tarif paketi seçin <br />
+          və biznesinizi inkişaf etdirin.
+        </h2>
+      </div>
+      <div class="container d-flex space-between bundle-mix">
+        <div class="bundle-container">
+          <h2 class="bundle-container-text">Dəstək</h2>
+          <img class="bundle-img" src="./source/assets/media/img/bunle1.svg" />
+          <div class="d-flex monthly-price">
+            <h3>0</h3>
+            <img src="./source/assets/media/img/azn.svg" />
+            <h5>/aylıq</h5>
+          </div>
+          <p>Biznesə yeni başlayırsınız?</p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span>Puslusz</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
+              ödənişlər:<span>0.18%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
+              ödənişlər:<span>0.21%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
+              ödənişlər:<span>0.35%</span>
+            </li>
+          </ul>
+          <div class="bundle-actions">
+            <button>Daha ətraflı</button>
+            <a href="">Hesab aç</a>
+          </div>
+        </div>
+        <div class="bundle-container">
+          <h2 class="bundle-container-text">Yuksel</h2>
+          <img class="bundle-img" src="./source/assets/media/img/bundle2.svg" />
+          <div class="d-flex monthly-price">
+            <h3>40</h3>
+            <img src="./source/assets/media/img/azn.svg" />
+            <h5>/aylıq</h5>
+          </div>
+          <p>Biznesinizi inkişaf etdirmək istəyirsiniz?</p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span>Puslusz</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
+              ödənişlər:<span>0.12%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
+              ödənişlər:<span>0.15%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
+              ödənişlər:<span>0.28%</span>
+            </li>
+          </ul>
+          <div class="bundle-actions">
+            <button>Daha ətraflı</button>
+            <a href="">Hesab aç</a>
+          </div>
+        </div>
+        <div class="bundle-container">
+          <h2 class="bundle-container-text">Parla</h2>
+          <img class="bundle-img" src="./source/assets/media/img/bundle3.svg" />
+          <div class="d-flex monthly-price">
+            <h3>110</h3>
+            <img src="./source/assets/media/img/azn.svg" />
+            <h5>/aylıq</h5>
+          </div>
+          <p>Biznesiniz əmin addımlarla irəliləyir?</p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span>Puslusz</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
+              ödənişlər:<span>0.11%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
+              ödənişlər:<span>0.14%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
+              ödənişlər:<span>0.25%</span>
+            </li>
+          </ul>
+          <div class="bundle-actions">
+            <button>Daha ətraflı</button>
+            <a href="">Hesab aç</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container d-flex">
+      <div class="footer-logo footer-box">
+        <img src="./source/assets/media/img/footer.logo.svg" alt="PashaBankLogo">
+      </div>
+      <div class="phone-number footer-box">
+        <p class="footer-main-prg">
+          *9123 / (+99 412) 496 50 00
+        </p>
+        <p class="footer-secondary-prg">
+          Fərdi müştərilər üçün
+        </p>
+      </div>
+      <div class="phone-number footer-box">
+        <p class="footer-main-prg">
+          *8123 / (+994 12) 496 50 04
+        </p>
+        <p class="footer-secondary-prg">
+          Korporativ müştərilər üçün
+        </p>
+      </div>
+      <div class="email footer-box">
+        <p class="footer-main-prg">
+          customer.care@pashabank.az
+        </p>
+        <p class="footer-secondary-prg">
+          E-mail
+        </p>
       </div>
     </div>
-    <!-- Header section end -->
 
-    <main>
-      <section id="slider-section">
-        <div class="slider-container">
-          <i class="fa-solid fa-angle-left fa-sm" id="left-button"></i>
-          <div class="slide-1 slides">
-            <div class="slide-image-1">
-              <div class="info">
-                <span>Unsecured business loan</span>
-                <p>
-                  Get a business loan from 12% without collateral and online!
+    <section class="footer-nav">
+      <div class="container">
+        <div class="d-flex">
+          <div class=" col-md-3">
+            <ul class="footer__nav__column">
+              <li>
+                <p class="mainListItem">
+                  Korporativ Bankçiliq
                 </p>
-                <a href="#">More details</a>
-              </div>
-            </div>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+            </ul>
           </div>
-          <i class="fa-solid fa-angle-right fa-sm" id="right-button"></i>
-          <div class="slide-2 slides">
-            <div class="info">
-              <span>Become a client of PASHA Bank</span>
-              <p>
-                Open an account without visiting the bank and without wasting
-                time
-              </p>
-              <a href="" class="second-more-d">More Details</a>
-            </div>
-            <div class="slide-image-2"></div>
+          <div class=" col-md-3">
+            <ul class="footer__nav__column">
+              <li>
+                <p class="mainListItem">
+                  Kicik ve Orta Biznes
+                </p>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="slide-3 slides">
-            <div class="info">
-              <span>Business cards</span>
-              <p>Get the financial freedom you deserve</p>
-              <a href="">More Details</a>
-            </div>
-            <div class="slide-image-3"></div>
+          <div class=" col-md-3">
+            <ul class="footer__nav__column">
+              <li>
+                <p class="mainListItem">
+                  Ferdi Bankciliq
+                </p>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="slide-4 slides">
-            <div class="info">
-              <span>Make payroll transfers in 3 steps</span>
-              <p>
-                Online ordering of salary cards for the first time in the
-                country
-              </p>
-              <a href="">More details</a>
-            </div>
-            <div class="slide-image-4"></div>
+          <div class=" col-md-3">
+            <ul class="footer__nav__column">
+              <li>
+                <p class="mainListItem">
+                  Diger
+                </p>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pashabank.az/corporate_cash_and_settlements/lang,az/" target="_blank">
+                  Pasha Bank
+                </a>
+              </li class="social-icons">
+              <li class="d-flex">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="solution">
-        <div class="solution-text">
-          <h2>
-            Kiçik və Orta Sahibkarlıq üçün biznes <br />
-            əməliyyatlarının optimal həlli
-          </h2>
+    <div class="footer_copyright">
+      <div class="container">
+        <div class="d-flex justify-content-between color-black--disabled footer__copyright__content">
+          <p>© 2023, PAŞA Bank</p>
+          <p>Bank Azərbaycan Respublikasi Mərkəzi Bankinin 250 sayli 28 noyabr 2007-ci il tarixli lisenziyasi əsasinda
+            fəaliyyət göstərir.</p>
         </div>
-        <div class="solution-container space-between d-flex">
-          <div class="col-4 solution-div">
-            <i class="fa-solid fa-file-invoice fa-2xl solution-logo"></i>
-            <ul>
-              <li class="list-1">5 dəqiqəyə onlayn hesab açın</li>
-              <li class="list-2">
-                <i class="fa-solid fa-check fa-2xs"></i> Dünyanın istənilən
-                nöqtəsindən, <br />
-                24/7 rejimində
-              </li>
-              <li class="list-3">
-                <i class="fa-solid fa-check fa-2xs"></i> Video-zəng ilə
-                verifikasiya
-              </li>
-              <li class="list-4">
-                <a href="">
-                  Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-4 solution-div">
-            <i
-              id="percen-logo"
-              class="fa-solid fa-percent fa-2xl solution-logo"
-            ></i>
-            <ul>
-              <li class="list-1">
-                Onlayn kreditlərlə biznesinizi genişləndirin
-              </li>
-              <li class="list-2">
-                <i class="fa-solid fa-check fa-2xs"></i> Girovsuz
-              </li>
-              <li class="list-3">
-                <i class="fa-solid fa-check fa-2xs"></i> 1 iş gününə
-              </li>
-              <li class="list-4">
-                <a href="#"
-                  >Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-4 solution-div">
-            <i class="fa-regular fa-hard-drive fa-2xl solution-logo"></i>
-            <ul>
-              <li class="list-1">Əməkhaqqı layihəsinə qoşulun</li>
-              <li class="list-2">
-                <i class="fa-solid fa-check fa-2xs"></i> Əmək haqlarının rahat
-                və təhlükəsiz ödənişi
-              </li>
-              <li class="list-3">
-                <i class="fa-solid fa-check fa-2xs"></i> Onlayn platforma
-                üzərindən idarəetmə
-              </li>
-              <li class="list-4 last-li">
-                <a href="">
-                  Daha ətraflı <i class="fa-solid fa-arrow-right fa-2xs"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+  </footer>
+</body>
 
-      <section class="bundle col-12">
-        <div class="container bundle-text">
-          <h2>
-            Ehtiyaclarınıza uyğun tarif paketi seçin <br />
-            və biznesinizi inkişaf etdirin.
-          </h2>
-        </div>
-        <div class="container d-flex space-between bundle-mix">
-          <div class="bundle-container">
-            <h2 class="bundle-container-text">Dəstək</h2>
-            <img
-              class="bundle-img"
-              src="./source/assets/media/img/bunle1.svg"
-            />
-            <div class="d-flex monthly-price">
-              <h3>0</h3>
-              <img src="./source/assets/media/img/azn.svg" />
-              <h5>/aylıq</h5>
-            </div>
-            <p>Biznesə yeni başlayırsınız?</p>
-            <ul>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span
-                  >Puslusz</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
-                ödənişlər:<span>0.18%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
-                ödənişlər:<span>0.21%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
-                ödənişlər:<span>0.35%</span>
-              </li>
-            </ul>
-            <div class="bundle-actions">
-              <button>Daha ətraflı</button>
-              <a href="">Hesab aç</a>
-            </div>
-          </div>
-          <div class="bundle-container">
-            <h2 class="bundle-container-text">Yuksel</h2>
-            <img
-              class="bundle-img"
-              src="./source/assets/media/img/bundle2.svg"
-            />
-            <div class="d-flex monthly-price">
-              <h3>40</h3>
-              <img src="./source/assets/media/img/azn.svg" />
-              <h5>/aylıq</h5>
-            </div>
-            <p>Biznesinizi inkişaf etdirmək istəyirsiniz?</p>
-            <ul>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span
-                  >Puslusz</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
-                ödənişlər:<span>0.12%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
-                ödənişlər:<span>0.15%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
-                ödənişlər:<span>0.28%</span>
-              </li>
-            </ul>
-            <div class="bundle-actions">
-              <button>Daha ətraflı</button>
-              <a href="">Hesab aç</a>
-            </div>
-          </div>
-          <div class="bundle-container">
-            <h2 class="bundle-container-text">Parla</h2>
-            <img
-              class="bundle-img"
-              src="./source/assets/media/img/bundle3.svg"
-            />
-            <div class="d-flex monthly-price">
-              <h3>110</h3>
-              <img src="./source/assets/media/img/azn.svg" />
-              <h5>/aylıq</h5>
-            </div>
-            <p>Biznesiniz əmin addımlarla irəliləyir?</p>
-            <ul>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Hesab açma:<span
-                  >Puslusz</span
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili AZN
-                ödənişlər:<span>0.11%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Ölkədaxili təcili AZN
-                ödənişlər:<span>0.14%</span>
-              </li>
-              <li>
-                <i class="fa-solid fa-check fa-2xs"></i>Beynəlxalq
-                ödənişlər:<span>0.25%</span>
-              </li>
-            </ul>
-            <div class="bundle-actions">
-              <button>Daha ətraflı</button>
-              <a href="">Hesab aç</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
