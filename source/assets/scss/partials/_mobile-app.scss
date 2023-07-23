@@ -1,0 +1,62 @@
+.mobile-app {
+    margin-top: 96px;
+    padding-top: 100px;
+    background-color: white !important;
+    background-image: url("../media/img/mobile.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: contain;
+
+
+}
+
+.mobile-app-main-images {
+    .playmarkets-wrapper {
+        a {
+            font-family: "Gothic A1";
+            margin-bottom: 20px;
+            display: inline-block;
+
+            img {
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.qr-code {
+    height: 120px;
+    margin-left: 20px;
+}
+
+.mobile-app-main-inner-text {
+    h5 {
+        font-family: "Gothic A1";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: .15px;
+    }
+
+    p {
+        font-family: "Gothic A1";
+
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .5px;
+    }
+}
+
+@media (max-width: 768px) {
+    #mobile-app-main {
+        background-image: unset;
+
+    }
+
+    .playmarkets-wrapper {
+        width: 40%;
+    }
+}
