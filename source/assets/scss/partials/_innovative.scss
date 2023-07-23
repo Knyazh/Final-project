@@ -1,0 +1,44 @@
+#innovative{
+    margin-top: 96px;
+    background-image: url('../media/img/online-bank.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 739px;
+    background-size: contain;
+
+}
+
+.section-header-wrapper-text {
+    h5 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        font-family: "Goth1c A1";
+
+    }
+
+    p {
+        vertical-align: baseline;
+        font-size: 18px;
+        color: grey;
+        font-weight: 400;
+        padding-bottom: 20px;
+        font-family: "Goth1c A1";
+
+    }
+
+}
+
+.section-header-h2{
+    margin-bottom: 25px;
+    font-family: "Goth1c A1";
+}
+
+@media (max-width: 768px) {
+
+    #innovative-solvings {
+        background-image: none;
+
+
+    }
+}
