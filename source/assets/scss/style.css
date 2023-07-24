@@ -90,7 +90,18 @@ h6 {
   flex-direction: row;
 }
 
+.more-btn {
+  font-size: 14px;
+  color: #099a71;
+  text-decoration: none;
+}
+
+.col-6 {
+  width: 48%;
+}
+
 .header {
+  width: 100%;
   position: fixed;
   border-bottom: 1px solid gray;
   padding: 0 40px;
@@ -121,10 +132,9 @@ h6 {
   color: rgba(0, 0, 0, 0.3803921569);
 }
 .header button {
-  margin-left: 600px;
+  margin-left: 500px;
   background: #058d66;
   color: #fff;
-  background-position: 50%;
   border: 0px solid white;
   padding: 8px 16px;
   border-radius: 8px;
@@ -817,4 +827,43 @@ h6 {
   .playmarkets-wrapper {
     width: 40%;
   }
+}
+.improve-bussines {
+  margin-top: 96px;
+}
+.improve-bussines .improve-2 {
+  justify-content: space-between;
+}
+.improve-bussines .improve-2 div {
+  margin-bottom: 24px;
+  width: calc(50% - 12px);
+  background-color: #e7f4f9;
+  background-size: contain;
+  padding: 24px 280px 16px 24px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.improve-bussines .improve-2 h5 {
+  font-size: 24px;
+  font-family: "Gothic A1";
+  margin-bottom: 24px;
+}
+.improve-bussines .improve-2 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 56px;
+  font-family: "Gothic A1";
+}
+
+.improve-2-1 {
+  background-image: url(../media/img/pos-terminal.png);
+}
+
+.improve-2-2 {
+  background-color: #ffebf0 !important;
+  background-image: url(../media/img/business-cards.png);
 }/*# sourceMappingURL=style.css.map */

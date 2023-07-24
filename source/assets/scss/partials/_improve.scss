@@ -1,0 +1,39 @@
+.improve-bussines{
+    margin-top: 96px;
+    .improve-2{
+        justify-content: space-between;
+        div{
+            margin-bottom: 24px;
+    width: calc(50% - 12px);
+    background-color: #e7f4f9;
+    background-size: contain;
+    padding: 24px 280px 16px 24px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+h5{
+    font-size: 24px;
+    font-family: "Gothic A1";
+            margin-bottom: 24px;
+        }
+        p{
+            color: rgba(0,0,0,.6);
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: .5px;
+            margin-bottom: 56px;
+    font-family: "Gothic A1";
+}
+    }
+}
+.improve-2-1{
+    background-image: url(../media/img/pos-terminal.png);
+
+}
+
+.improve-2-2{
+    background-color: #ffebf0 !important;
+    background-image: url(../media/img/business-cards.png);
+}
