@@ -888,30 +888,60 @@ h6 {
 
 .improve-2-1 {
   background-image: url(../media/img/pos-terminal.png);
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+}
+.improve-2-1:hover {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(255, 1, 5, 0.07);
 }
 
 .improve-2-2 {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
   background-color: #ffebf0 !important;
   background-image: url(../media/img/business-cards.png);
 }
+.improve-2-2:hover {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(255, 1, 5, 0.07);
+}
 
 .improve-3-1 {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
   background-image: url(../media/img/3-1.png);
   background-color: #fdf6e7;
 }
+.improve-3-1:hover {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(255, 1, 5, 0.07);
+}
 
 .improve-3-2 {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
   background-image: url(../media/img/3-2.png);
   background-color: #e0f3ed;
+}
+.improve-3-2:hover {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(255, 1, 5, 0.07);
 }
 .improve-3-2 p {
   margin-bottom: 24px;
 }
 
 .improve-3-3 {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
   background-image: url(../media/img/3-3.png);
   background-color: #f4f5f4;
 }
 .improve-3-3 p {
   margin-bottom: 24px;
+}
+.improve-3-3:hover {
+  transition: 600ms;
+  box-shadow: 5px 5px 10px rgba(23, 8, 239, 0);
 }/*# sourceMappingURL=style.css.map */
