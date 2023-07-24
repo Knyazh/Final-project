@@ -1,5 +1,31 @@
 .improve-bussines{
     margin-top: 96px;
+
+    .improve-3{
+        justify-content: space-between;
+        div{
+            border-radius: 8px;
+    background-repeat: no-repeat;
+
+            background-position: 100% 100%;
+            padding: 24px 150px 16px 24px;
+            h5{
+                margin-bottom: 24px;
+                font-size: 24px;
+                font-family: "Gothic A1";
+            }
+            p{
+               font-size: 15px;
+               font-family: "Gothic A1";
+
+            }
+        }
+    }
+    .bussines-text{
+        font-size: 32px;
+        font-family: "Gothic A1";
+        margin-bottom: 40px;
+    }
     .improve-2{
         justify-content: space-between;
         div{
@@ -36,4 +62,22 @@ h5{
 .improve-2-2{
     background-color: #ffebf0 !important;
     background-image: url(../media/img/business-cards.png);
+}
+.improve-3-1{
+    background-image: url(../media/img/3-1.png);
+    background-color: #fdf6e7;}
+
+.improve-3-2{
+    background-image: url(../media/img/3-2.png);
+    background-color: #e0f3ed;
+    p{
+        margin-bottom: 24px;
+    }
+}
+.improve-3-3{
+    background-image: url(../media/img/3-3.png);
+    background-color: #f4f5f4;
+    p{
+        margin-bottom: 24px;
+    }
 }

@@ -100,6 +100,10 @@ h6 {
   width: 48%;
 }
 
+.col-4sm {
+  width: 30%;
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -831,6 +835,29 @@ h6 {
 .improve-bussines {
   margin-top: 96px;
 }
+.improve-bussines .improve-3 {
+  justify-content: space-between;
+}
+.improve-bussines .improve-3 div {
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 24px 150px 16px 24px;
+}
+.improve-bussines .improve-3 div h5 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-family: "Gothic A1";
+}
+.improve-bussines .improve-3 div p {
+  font-size: 15px;
+  font-family: "Gothic A1";
+}
+.improve-bussines .bussines-text {
+  font-size: 32px;
+  font-family: "Gothic A1";
+  margin-bottom: 40px;
+}
 .improve-bussines .improve-2 {
   justify-content: space-between;
 }
@@ -866,4 +893,25 @@ h6 {
 .improve-2-2 {
   background-color: #ffebf0 !important;
   background-image: url(../media/img/business-cards.png);
+}
+
+.improve-3-1 {
+  background-image: url(../media/img/3-1.png);
+  background-color: #fdf6e7;
+}
+
+.improve-3-2 {
+  background-image: url(../media/img/3-2.png);
+  background-color: #e0f3ed;
+}
+.improve-3-2 p {
+  margin-bottom: 24px;
+}
+
+.improve-3-3 {
+  background-image: url(../media/img/3-3.png);
+  background-color: #f4f5f4;
+}
+.improve-3-3 p {
+  margin-bottom: 24px;
 }/*# sourceMappingURL=style.css.map */
